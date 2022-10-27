@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all words of a string
+ * cap_string - capitalizes all words
  * @s: input string.
  * Return: the pointer to dest.
  */
+
 char *cap_string(char *s)
 {
 	int count = 0, i;
@@ -26,5 +27,5 @@ char *cap_string(char *s)
 		}
 		count++;
 	}
-	return (s)
+	return (s);
 }
